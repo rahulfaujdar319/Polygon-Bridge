@@ -4,7 +4,7 @@ const tokenContractJSON = require("../artifacts/contracts/MyNFT.sol/MyNFT.json")
 
 const tokenAddress = "0xE34058D51A6cF5556Cc361F7AA20F578BB847306";// update
 const FxERC721RootTunnel = "0xF9bc4a80464E48369303196645e876c8C7D972de";
-const walletAddress = "0x0D53f8320766e9384846Da681dbd51db9D1Ef228";
+const walletAddress = "0x0D53f8320766e9384846Da681dbd51db9D1Ef523";
 
 async function main() {
   const contract = await hre.ethers.getContractFactory("MyNFT"); // Replace "MyNFT" with your actual NFT contract name
